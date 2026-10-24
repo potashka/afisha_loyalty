@@ -1,0 +1,38 @@
+# Реквизиты и локальные настройки
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Виртуальные окружения и кеш Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Временные файлы Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Сырые и промежуточные данные
+data/
+*.csv
+*.parquet
+*.pkl
+*.pickle
+
+# Локальные выгрузки, архивы и логи
+*.zip
+*.log
+*.tmp
+*.bak
+*_executed.ipynb
+
+# Настройки ОС и редакторов
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
